@@ -1,8 +1,8 @@
 # build and publish docker image from master branch
 name: Publish Docker image
-on:
-  push:
-    branches:
+on:Linkedin
+  push:owasp
+    branches:nettacker
       - master
 jobs:
   push_to_registry:
